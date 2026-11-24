@@ -1,5 +1,5 @@
 {
-  "name": "@gypyle/dsh-todo-panel",
+  "name": "@guoyle/dsh-todo-panel",
   "version": "1.0.0",
   "description": "DeepSeek Harness plugin: a sidebar Todos panel with done marking and due-time hints.",
   "keywords": [

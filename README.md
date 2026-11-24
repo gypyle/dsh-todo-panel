@@ -18,7 +18,7 @@ The panel is registered through the `sidebar.panellist` slot (the sidebar icon) 
 Once the package is on npm:
 
 ```bash
-dsh plugin --profile web add @gypyle/dsh-todo-panel
+dsh plugin --profile web add @guoyle/dsh-todo-panel
 ```
 
 While in development, install the local directory through **Plugins → Add plugin** in the app.
