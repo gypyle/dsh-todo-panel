@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Todos",
+    "description": "Adds a Todos panel to the sidebar. Record todo items, mark them done, and give each an optional due time; the list highlights overdue and due-soon items with live time hints and All / Active / Done filters. Right-click any todo and choose \"Execute in workspace\" to start a new conversation in the chosen workspace with that todo (deadline included) as the prompt. Items are stored on this machine in a JSON file under the DSH home directory (.dsh/dsh-todo-panel/items.json) and survive app restarts and port changes.",
+    "detail": "docs/DETAIL.md"
+  }
+}
