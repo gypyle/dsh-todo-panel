@@ -1,6 +1,6 @@
 # dsh-todo-panel bundle patch: installing the package adds one row that mounts
 # the sidebar Todos panel (the panel icon in `sidebar.panellist`, the page in
-# the keyed `main` slot).
+# the keyed `main` slot). The row name must be the full package name.
 - insert:
     - id: todo-panel
-      name: dsh-todo-panel
+      name: '@guoyle/dsh-todo-panel'

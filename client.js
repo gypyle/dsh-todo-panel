@@ -2,10 +2,13 @@
 //
 // Registers the panel icon into `sidebar.panellist` (id `todos`) and the page
 // into the keyed `main` slot under the same id, plus one zh/en dictionary and
-// a package-owned stylesheet. Items live in this browser's localStorage; the
-// Host half has nothing to do. Time hints re-render from a shared 30s clock.
+// a package-owned stylesheet. Items live in a Host-owned JSON file; time hints
+// re-render from a shared 30s clock.
+//
+// The load id must equal the composed entry id: the package name, scope
+// included.
 window.__ModuleLoader__.load({
-  id: 'dsh-todo-panel',
+  id: '@guoyle/dsh-todo-panel',
   factory(require) {
     const React = require('react')
     const h = React.createElement
